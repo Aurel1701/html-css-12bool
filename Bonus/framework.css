@@ -8,6 +8,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     
 }
 .col {
@@ -16,10 +18,6 @@
     max-width: 100%;
 }
 
-[class*="col-"] {
-     
-     
-  }
   
 .col-1 {
     flex-basis: calc((100% / 12) * 1);
@@ -99,7 +97,7 @@
     margin-left: calc((100% / 12) * 4);
 }
   
-  .col-offset-5 {
+.col-offset-5 {
     margin-left: calc((100% / 12) * 5);
 }
   
